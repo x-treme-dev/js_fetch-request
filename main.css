@@ -1,0 +1,114 @@
+body{
+    background-color: #fdebd0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: 1200px;
+    width: 75vw;
+    margin: 0 auto 0 auto;
+    
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.form__h1{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.form__data{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.form__label{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px 5px 10px;
+}
+
+.form__input, .form__select{
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 0px;
+    border:none;
+}
+
+.form__input{
+    width: 80%;
+}
+
+.form__select{
+   width: 82%;
+}
+
+.form__button-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.form__button{
+    width: 100%;
+    height: 30px;
+    border-radius: 0px;
+    border:none;
+    background: #76d7c4;
+}
+
+.message{
+    padding: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.films__h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.films__h2{
+    padding: 30px 0 10px 0;
+}
+
+.films__p:nth-child(3){
+    padding: 20px 0 20px 0;
+}
+
+.films__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.films__item{
+    width:30%;
+    border: 1px solid #000;
+    display: flex;
+    margin: 5px 10px 5px 10px; 
+}
+
+.films__image-wrap, .films__content{
+    padding: 10px;
+}
+
+.films__button{
+    width: 100px;
+}
+ 

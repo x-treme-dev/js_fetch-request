@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HowToWorkFetch</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+         <div class="wrapper">
+            <form class="form" id="formMovies" action="main.js">
+                <h1 class="form__h1">Search:</h1>
+                    <div class="form__data">
+                            <label for="" class="form__label"> Title:
+                                <input type="text" class="form__input" name="title">
+                            </label>
+                            <label for="" class="form__label"> Type:
+                                <select name="type" class="form__select" name="type">
+                                    <option value="movie" class="form__option-event">Movie</option>
+                                    <option value="series" class="form__option-event">Series</option>
+                                    <option value="episode" class="form__option-event">Episod</option>
+                                </select>
+                            </label>
+                            <div class="form__button-wrapper">
+                                <button class="form__button" type="submit">Search</button>
+                            </div>
+                           
+                    </div>
+            </form>
+         </div>
+
+                <div class="message" id="message"></div>
+
+                    <div class="films">
+                        <h1 class="films__h1">Films:</h1>
+                            <div class="films__wrapper">
+                                <!--Вывод постеров с фильмами из main.js-->
+                            </div>
+                    </div>
+                </div>
+                
+    <script src="main.js"></script>
+</body>
+</html>
